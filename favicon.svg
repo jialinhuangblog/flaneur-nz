@@ -1,0 +1,23 @@
+<svg width="32" height="32" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- 藍企鵝去背版：肚子跟眼睛是挖空的，淺色分頁露白、深色分頁露黑，
+       身體顏色跟著色系走（light 黑、dark 白）。 -->
+  <style>
+    .p { fill: #1C1C1C; }
+    @media (prefers-color-scheme: dark) { .p { fill: #FAFAFA; } }
+  </style>
+  <defs>
+    <mask id="cut">
+      <rect width="64" height="64" fill="white"/>
+      <ellipse cx="32" cy="44" rx="9" ry="12" fill="black"/>
+      <circle cx="28" cy="19" r="2" fill="black"/>
+      <circle cx="36" cy="19" r="2" fill="black"/>
+    </mask>
+  </defs>
+  <g class="p" mask="url(#cut)">
+    <ellipse cx="15.5" cy="39" rx="3.5" ry="10" transform="rotate(18 15.5 39)"/>
+    <ellipse cx="48.5" cy="39" rx="3.5" ry="10" transform="rotate(-18 48.5 39)"/>
+    <ellipse cx="32" cy="41" rx="15" ry="18"/>
+    <circle cx="32" cy="19" r="10.5"/>
+  </g>
+  <polygon points="29,23.5 35,23.5 32,28" fill="#F2B84B"/>
+</svg>
