@@ -1,0 +1,11 @@
+<svg width="512" height="512" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- 藍企鵝實色版：透明背景、白肚子白眼睛不挖空，PNG（PWA icons）從這份產。 -->
+  <ellipse cx="15.5" cy="39" rx="3.5" ry="10" transform="rotate(18 15.5 39)" fill="#1C1C1C"/>
+  <ellipse cx="48.5" cy="39" rx="3.5" ry="10" transform="rotate(-18 48.5 39)" fill="#1C1C1C"/>
+  <ellipse cx="32" cy="41" rx="15" ry="18" fill="#1C1C1C"/>
+  <circle cx="32" cy="19" r="10.5" fill="#1C1C1C"/>
+  <ellipse cx="32" cy="44" rx="9" ry="12" fill="#FAFAFA"/>
+  <circle cx="28" cy="19" r="2" fill="#FAFAFA"/>
+  <circle cx="36" cy="19" r="2" fill="#FAFAFA"/>
+  <polygon points="29,23.5 35,23.5 32,28" fill="#F2B84B"/>
+</svg>
